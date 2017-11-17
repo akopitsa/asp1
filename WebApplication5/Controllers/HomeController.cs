@@ -32,5 +32,11 @@ namespace WebApplication5.Controllers
             ViewBag.Message = "My Probe page";
             return View();
         }
+
+        public ActionResult Fuck()
+        {
+            ViewBag.Message = "Fuck message";
+            return View();
+        }
     }
 }
