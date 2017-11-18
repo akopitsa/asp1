@@ -35,7 +35,7 @@ namespace WebApplication5.Controllers
 
         public ActionResult Fuck()
         {
-            ViewBag.Message = "Fuck message";
+            ViewBag.Message = "Fuck message )";
             return View();
         }
     }
